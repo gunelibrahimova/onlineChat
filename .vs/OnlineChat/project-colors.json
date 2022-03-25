@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6a7979cc-3a65-45cb-9eee-d8c72f4ad19b": {
+      "ProjectGuid": "6a7979cc-3a65-45cb-9eee-d8c72f4ad19b",
+      "DisplayName": "OnlineChat",
+      "ColorIndex": 0
+    },
+    "5e1fd39f-d039-4ebb-8347-fdbae484c1c9": {
+      "ProjectGuid": "5e1fd39f-d039-4ebb-8347-fdbae484c1c9",
+      "DisplayName": "Entities",
+      "ColorIndex": 1
+    },
+    "1525ab4f-50fd-4560-9fe4-14fda5ed1caf": {
+      "ProjectGuid": "1525ab4f-50fd-4560-9fe4-14fda5ed1caf",
+      "DisplayName": "DataAccess",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}
