@@ -5,6 +5,7 @@ using OnlineChat.ViewModels;
 
 namespace OnlineChat.Controllers
 {
+
     public class AuthController : Controller
     {
         private readonly UserManager<Users> _userManager;

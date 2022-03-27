@@ -5,9 +5,11 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineChat", "OnlineChat\OnlineChat.csproj", "{6A7979CC-3A65-45CB-9EEE-D8C72F4AD19B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{5E1FD39F-D039-4EBB-8347-FDBAE484C1C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{5E1FD39F-D039-4EBB-8347-FDBAE484C1C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{1525AB4F-50FD-4560-9FE4-14FDA5ED1CAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{1525AB4F-50FD-4560-9FE4-14FDA5ED1CAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{0C48752C-38E8-4317-B308-1AC6B82A0737}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{1525AB4F-50FD-4560-9FE4-14FDA5ED1CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1525AB4F-50FD-4560-9FE4-14FDA5ED1CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1525AB4F-50FD-4560-9FE4-14FDA5ED1CAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C48752C-38E8-4317-B308-1AC6B82A0737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C48752C-38E8-4317-B308-1AC6B82A0737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C48752C-38E8-4317-B308-1AC6B82A0737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C48752C-38E8-4317-B308-1AC6B82A0737}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

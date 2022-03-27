@@ -77,3 +77,5 @@ C:\Users\HP\Desktop\Tasks\OnlineChat\OnlineChat\bin\Debug\net6.0\DataAccess.pdb
 C:\Users\HP\Desktop\Tasks\OnlineChat\OnlineChat\bin\Debug\net6.0\Entities.pdb
 C:\Users\HP\Desktop\Tasks\OnlineChat\OnlineChat\obj\Debug\net6.0\OnlineChat.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\HP\Desktop\Tasks\OnlineChat\OnlineChat\obj\Debug\net6.0\OnlineChat.csproj.CopyComplete
+C:\Users\HP\Desktop\Tasks\OnlineChat\OnlineChat\bin\Debug\net6.0\Services.dll
+C:\Users\HP\Desktop\Tasks\OnlineChat\OnlineChat\bin\Debug\net6.0\Services.pdb

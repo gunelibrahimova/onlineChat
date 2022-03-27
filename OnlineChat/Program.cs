@@ -4,11 +4,15 @@ using Entities;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.EntityFrameworkCore;
 using OnlineChat.SignalR.Hubs;
+using Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<UsersService>();
+builder.Services.AddScoped<MessagesService>();
 
 
 builder.Services.AddSignalR();
@@ -19,7 +23,8 @@ var connectingString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<ChatDbContext>(options => options.UseSqlServer(connectingString));
 
 
-builder.Services.AddDefaultIdentity<Users>().AddEntityFrameworkStores<ChatDbContext>();
+builder.Services.AddDefaultIdentity<Users>()
+    .AddEntityFrameworkStores<ChatDbContext>();
 
 builder.Services.ConfigureApplicationCookie(option =>
 {
@@ -43,6 +48,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

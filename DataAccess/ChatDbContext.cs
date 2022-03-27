@@ -13,6 +13,7 @@ namespace DataAccess
         
 
         public DbSet<Users> Users { get; set; }
+        public DbSet<Message> Messages { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

@@ -9,6 +9,7 @@ namespace DataAccess.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+
             migrationBuilder.CreateTable(
                 name: "Roles",
                 columns: table => new
@@ -193,6 +194,7 @@ namespace DataAccess.Migrations
                 column: "NormalizedUserName",
                 unique: true,
                 filter: "[NormalizedUserName] IS NOT NULL");
+
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
